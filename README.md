@@ -96,11 +96,14 @@ Trained on the **ASL Alphabet Dataset from Kaggle**, the model classifies hand g
 ## 🧑‍💻 Implementation Steps  
 
 ### 1️⃣ Clone the Repository  
+
 ```bash
 git clone https://github.com/<your-username>/Intelligent-Sign-Language-Recognition-CNN.git
 cd Intelligent-Sign-Language-Recognition-CNN
 ```
+
 ###2️⃣ Install Dependencies
+
 ```
 pip install tensorflow keras opencv-python numpy pandas matplotlib
 ```
@@ -113,81 +116,76 @@ kaggle datasets download -d grassknoted/asl-alphabet
 ```
 
 4️⃣ Train the Model
+```
 python train_model.py
+```
 
 5️⃣ Run Real-Time Recognition
+
+```
 python real_time_recognition.py
+```
 
-📊 Results
-Metric	Value
-Accuracy	95.2%
-Precision	94.1%
-Recall	93.6%
-F1-Score	93.85%
-FPS	20–30
-Prediction Latency	~0.12 sec/frame
-🔍 Highlights
+# ASL Alphabet Recognition Project
 
-Stable recognition across various lighting conditions.
+📊 **Results**
 
-Minor confusion for visually similar signs (e.g., M vs N).
+| Metric              | Value          |
+|--------------------|---------------|
+| Accuracy            | 95.2%         |
+| Precision           | 94.1%         |
+| Recall              | 93.6%         |
+| F1-Score            | 93.85%        |
+| FPS                 | 20–30         |
+| Prediction Latency  | ~0.12 sec/frame |
 
-Consistent real-time predictions on standard laptop hardware.
+🔍 **Highlights**
+- Stable recognition across various lighting conditions.
+- Minor confusion for visually similar signs (e.g., M vs N).
+- Consistent real-time predictions on standard laptop hardware.
 
-🧪 Sample Outputs
+🧪 **Sample Outputs**
+- **Dataset Prediction:** CNN model accurately classifies alphabets (A–Z) and special signs.
+- **Real-Time Prediction:** Webcam feed integrated via OpenCV — predicted label displayed live.
 
-🖼️ Dataset Prediction:
-CNN model accurately classifies alphabets (A–Z) and special signs.
+🚀 **Future Enhancements**
+- Support dynamic gesture recognition using RNN/LSTM.
+- Expand to Indian and British Sign Languages.
+- Develop a mobile/web app for accessibility.
+- Integrate text-to-speech (TTS) for audio output.
+- Improve dataset diversity (hand sizes, skin tones, backgrounds).
 
-🎥 Real-Time Prediction:
-Webcam feed integrated via OpenCV — predicted label displayed live.
+🤝 **Contribution**
+Contributions are always welcome!  
+```bash
+# Fork the repository
+git checkout -b feature-name
 
-🚀 Future Enhancements
+# Commit your changes
+git commit -m "Added new feature"
 
-Support dynamic gesture recognition using RNN/LSTM.
+# Push to your branch
+git push origin feature-name
 
-Expand to Indian and British Sign Languages.
+# Open a Pull Request
+```
 
-Develop a mobile/web app for accessibility.
-
-Integrate text-to-speech (TTS) for audio output.
-
-Improve dataset diversity (hand sizes, skin tones, backgrounds).
-
-🤝 Contribution
-
-Contributions are always welcome!
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature-name)
-
-Commit changes (git commit -m "Added new feature")
-
-Push to branch (git push origin feature-name)
-
-Open a Pull Request
-
-👩‍💻 Author
-
-Sarah S V
-B.Tech – Artificial Intelligence and Data Science
-Rajalakshmi Institute of Technology, Chennai
+## 👩‍💻 Author
+**Sarah S V**  
+B.Tech – Artificial Intelligence and Data Science  
+Rajalakshmi Institute of Technology, Chennai  
 📧 [Add your email or LinkedIn profile link]
 
-📚 References
+---
 
-ASL Alphabet Dataset – Kaggle
+## 📚 References
+- ASL Alphabet Dataset – [Kaggle](https://www.kaggle.com/grassknoted/asl-alphabet)  
+- François Chollet, *Deep Learning with Python* (Manning, 2017)  
+- Ian Goodfellow et al., *Deep Learning* (MIT Press, 2016)  
+- [TensorFlow & Keras Documentation](https://www.tensorflow.org/)  
+- [OpenCV Official Documentation](https://opencv.org/)
 
-François Chollet, Deep Learning with Python (Manning, 2017)
+---
 
-Ian Goodfellow et al., Deep Learning (MIT Press, 2016)
-
-TensorFlow & Keras Documentation
-
-OpenCV Official Documentation
-
-💬 Closing Note
-
+## 💬 Closing Note
 This project demonstrates how Deep Learning and Computer Vision can make technology more inclusive and human-centered.
-Onto more projects like this! 🚀 give these in proper format now
