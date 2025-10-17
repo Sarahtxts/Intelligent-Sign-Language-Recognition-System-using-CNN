@@ -174,7 +174,7 @@ git push origin feature-name
 **Sarah S V**  
 B.Tech – Artificial Intelligence and Data Science  
 Rajalakshmi Institute of Technology, Chennai  
-📧 [Add your email or LinkedIn profile link]
+📧 sarahsv.codes@gmail.com
 
 ---
 
